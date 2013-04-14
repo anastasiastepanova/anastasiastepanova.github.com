@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+    </head>
+
+    <body>
+        <aside class="lightbox" id="lightbox" style="display:none;">
+            <form method="post" class="lightbox__i" action="#">
+                <input type="text" class="input" name="login" placeholder="Логин" title="Логин" />
+                <input type="password" class="input" name="password" placeholder="Пароль" title="Пароль" />
+                <div class="lightbox__button">
+                    <button class="button">Войти</button>
+                    <a id="close_lightbox" title="Отмена">Отмена</a>
+                </div>
+            </form>
+        </aside>
+        <section id="article">
+            <header class="header">
+                <div class="header__top aside clearfix">
+                    <h1 class="left">
+                        <a href="index.html" title="lorem ipsum news">lorem ipsum news</a>
+                    </h1>
+                    <a class="aside__link right" id="open_lightbox" title="Войти">Войти</a>
+                </div>
+
+                <section class="header__bottom main">
+                    <h2>
+                        Новости
+                    </h2>
+                    <ul class="list-inline">
+                        <li>скандалы</li>
+                        <li>&bull;&nbsp;интриги&nbsp;&bull;</li>
+                        <li>расследования</li>
+                    </ul>
+                </section>
+            </header>
+
+            <section class="content main">
+                <ul class="content__i">
+                    <li>
+                        <ul class="clearfix list-inside">
+                            <li class="list-inside__image left">
+                                <a href="news.html" title="Скандал">
+                                    <i class="red">Скандал</i>
+                                    <img src="images/first.jpg" alt="Скандал"/>
+                                </a>
+                            </li>
+                            <li class="list-inside__description left">
+                                <h3>
+                                    <a href="news.html" title="Страны Евросоюза могут ввести санкции против Google">
+                                        Страны Евросоюза могут ввести санкции против Google
+                                    </a>
+                                </h3>
+                                <p>
+                                    Европейские власти обеспокоены политикой конфиденциальности компании Google.
+                                    Google хранит личные данные пользователей в одном профиле, в котором может объединяться информация
+                                    с нескольких десятков разных сайтов.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-inside clearfix">
+                            <li class="list-inside__image left">
+                                <a href="news.html" title="Интрига">
+                                    <i class="green">Интрига</i>
+                                    <img src="images/second.jpg" alt="Интрига"/>
+                                </a>
+                            </li>
+                            <li class="list-inside__description left">
+                                <h3>
+                                    <a href="news.html" title="ФАС уличила ВГТРК в рекламе алкоголя при трансляции футбольного матча">
+                                        ФАС уличила ВГТРК в рекламе алкоголя при трансляции
+                                        футбольного матча
+                                    </a>
+                                </h3>
+                                <p>
+                                    Проверка фотографий и видео-записей показала, что на рекламных стендах стадиона
+                                    "Стэмфорд Бридж" во время указанного матча не были размещены рекламные
+                                    плакаты данных производителей алкогольной продукции.
+                                    Рассмотрение данного дела ФАС России назначил на 15 мая 2013 года.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-inside clearfix">
+                            <li class="list-inside__image left">
+                                <a href="news.html" title="Расследование">
+                                    <i class="blue">Расследование</i>
+                                    <img src="images/third.jpg" alt="Скандал"/>
+                                </a>
+                            </li>
+                            <li class="list-inside__description left">
+                                <h3>
+                                    <a href="news.html" title="Возобновление борьбы за домены в зоне .рф маловероятно, считают юристы">
+                                        Возобновление борьбы за домены в зоне .рф маловероятно,
+                                        считают юристы
+                                    </a>
+                                </h3>
+                                <p>
+                                    "По всем 70914 доменным именам поступили заявки от клиентов, желающих их приобрести в
+                                    указанном порядке", - говорится в тексте судебного решения от 16 ноября 2011 г.
+                                    Апелляционная инстанция частично удовлетворила иск ФАС, а кассационная передала дело на
+                                    рассмотрение в президиум ВАС.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <footer class="footer main">
+                &copy; ЗАО &laquo;Лорем ипсум ньюс&raquo;
+            </footer>
+        </section>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
