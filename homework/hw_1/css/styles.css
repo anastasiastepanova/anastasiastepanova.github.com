@@ -371,6 +371,13 @@ a:hover{
 .account span{
     border-bottom: 1px solid #666;
 }
+.article-hd h1{
+    position: fixed;
+    top: 11px;
+    left: 10px;
+    margin: 0;
+    z-index: 2;
+}
 /*end*/
 .clearfix:before,
 .clearfix:after {
